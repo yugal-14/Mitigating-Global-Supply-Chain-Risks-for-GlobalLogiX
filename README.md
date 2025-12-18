@@ -12,6 +12,7 @@ Inventory Optimization: Balance stock levels across high-demand and overstocked 
 
 Cost Control: Monitor and reduce return costs from damaged items and quality issues
 
+
 📁 Datasets
 The dashboard integrates data from five core pillars:
 
@@ -25,6 +26,7 @@ Warehouses: Inventory levels, replenishment status, thresholds
 
 Returns: Return reasons, costs, frequencies, shipment links
 
+
 🛠️ Technical Implementation
 Data Transformation (Power Query)
 Consolidated 5 distinct datasets into a structured data model
@@ -34,6 +36,7 @@ Corrected data types (e.g., Order Date from text to date format)
 Cleaned null/hyphen values in Returns table
 
 Created dedicated Date Table for time-intelligence analysis
+
 
 Data Modeling
 Star Schema architecture with Orders as the central fact table
@@ -53,6 +56,7 @@ Total Return Cost & Total Transportation Cost - Financial impact analysis
 
 Supplier Risk Flag - High-risk supplier identification (Risk_Score > 80)
 
+
 📱 Dashboard Pages
 Risk Suppliers & Stock Monitoring - Conditional formatting highlights high-risk, low-stock suppliers
 
@@ -64,14 +68,6 @@ Dynamic KPI Metrics - Executive scorecard with 8+ real-time KPIs
 
 Logistic Cost Optimization - Combo chart correlating order volume with freight costs
 
-🎨 User Experience
-Custom Theme: Dark-mode "CY24SU10" for enhanced readability
-
-Synchronized Slicers: Cross-page filtering for consistent analysis
-
-Drill-through Features: Detailed supplier cards accessible from any page
-
-Interactive Visuals: Dynamic updates based on user selections
 
 💡 Business Impact
 This dashboard enables GlobalLogiX to:
